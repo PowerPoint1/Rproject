@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>380</y>
-      <width>181</width>
-      <height>61</height>
+      <x>350</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
     <property name="text">
@@ -30,10 +30,10 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>140</y>
-      <width>181</width>
-      <height>61</height>
+      <x>350</x>
+      <y>110</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
     <property name="text">
@@ -43,10 +43,10 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>220</y>
-      <width>181</width>
-      <height>61</height>
+      <x>350</x>
+      <y>190</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
     <property name="text">
@@ -56,10 +56,10 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>300</y>
-      <width>181</width>
-      <height>61</height>
+      <x>350</x>
+      <y>270</y>
+      <width>93</width>
+      <height>28</height>
      </rect>
     </property>
     <property name="text">
@@ -69,10 +69,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>60</y>
-      <width>81</width>
-      <height>31</height>
+      <x>360</x>
+      <y>40</y>
+      <width>55</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
@@ -82,14 +82,14 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>260</y>
+      <x>130</x>
+      <y>220</y>
       <width>55</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Info</string>
+     <string>TextLabel</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">

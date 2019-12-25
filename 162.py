@@ -9,14 +9,15 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QMainWin
 def except_hook(cls, exception, traceback):
     sys.__excepthook__(cls, exception, traceback)
     
-a = {'Audi': 'Q7', 'BMW': 'M5 E92', 'Henessy': 'Venom GT', 'Ford': 'GT40', 'Porsche': 'Macan',
-     'Volvo': 'XC60', 'Subaru': 'WRX STI', 'Alfa Romeo': 'TZ2', 'Noble': 'M600'}
-b = ['Q7', 'M5 E92', 'Venom GT', 'GT40', 'Macan', 'XC60', 'WRX STI', 'TZ2', 'M600']
+a = {'Audi': 'Q7', 'Audi': 'TT', 'BMW': 'M5 E92', 'BMW': 'Nazca', 'Henessy': 'Venom GT', 'Ford': 'GT40', 'Ford': 'Focus', 'Porsche': 'Macan',
+'Porsche': '356A', 'Volvo': 'XC60', 'Volvo': '850R', 'Subaru': 'WRX STI', 'Subaru': 'Legacy RS', 'Alfa Romeo': 'TZ2',
+'Alfa Romeo': '4C', 'Noble': 'M600'}
+b = ['Q7', 'TT', 'Nazca', 'Focus', '356A', '850R', 'Legacy RS', 'M5 E92', 'Venom GT', 'GT40', 'Macan', 'XC60', 'WRX STI',
+'TZ2', '4C', 'M600']
 
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.count = 0
         uic.loadUi('aud.ui', self)
         self.buttons = [self.pushButton_2, self.pushButton_3, self.pushButton_4, self.pushButton]
         self.titles = set()
@@ -33,9 +34,10 @@ class MyWidget(QMainWindow):
             else:
                 n = random.choice(b)
                 while n in self.titles or n == a[self.label.text()]:
-                    n = random.choice(b)    
+                    n = random.choice(b)
                 i.setText(n)
-                self.titles.add(n)            
+                self.titles.add(n)
+            
         
         
         
