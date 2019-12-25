@@ -69,10 +69,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>354</x>
       <y>40</y>
-      <width>55</width>
-      <height>16</height>
+      <width>81</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -82,14 +82,14 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>34</x>
       <y>220</y>
-      <width>55</width>
-      <height>16</height>
+      <width>171</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Кол-во правильных ответов</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
