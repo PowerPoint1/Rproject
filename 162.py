@@ -12,6 +12,7 @@ a = {'Audi': 'TT', 'BMW': 'Nazca', 'Henessy': 'Venom GT', 'Ford': 'GT40','Porsch
      'Volvo': '850R', 'Subaru': 'WRX STI', 'Alfa Romeo': 'TZ2', 'Noble': 'M600'}
 b = ['TT', 'Nazca', '356A', '850R', 'Venom GT', 'GT40', 'WRX STI', 'TZ2', 'M600']
 
+
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
